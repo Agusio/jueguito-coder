@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    private float speed = 1;
-    public float vida = 1;
-    public GameObject mycam;
+    private float speed = 1f;
     public float speedH = 2.0f;
     public float speedV = 2.0f;
 
@@ -48,12 +46,12 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            speed = 2;
+            speed = 1;
         }
         
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            speed = 1;
+            speed = 1f;
         }
     }
     void CameraControl()
@@ -61,7 +59,7 @@ public class Movement : MonoBehaviour
         yaw += speedH * Input.GetAxis("Mouse X");
         pitch -= speedV * Input.GetAxis("Mouse Y");
 
-        transform.eulerAngles = new Vector3(pitch,yaw,0.0f);
+        transform.eulerAngles = new Vector3(0.0f,yaw+180.0f,0.0f);
     }
 
 }
