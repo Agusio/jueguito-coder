@@ -1,5 +1,5 @@
 # jueguito-coder
-Instrucciones: 
+Instrucciones:
 W A S D - Movimiento.
 F - Linterna.
 Click izquierdo del mouse - Interactuar/Agarrar.
