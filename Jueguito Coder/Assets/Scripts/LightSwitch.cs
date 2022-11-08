@@ -20,7 +20,6 @@ public class LightSwitch : MonoBehaviour
     {
         if (col.transform.gameObject.name == "SwitchHabitacion")
         {
-            Debug.Log("Hola");
             intIcon.SetActive(true);
             if (Input.GetKeyDown(KeyCode.E))
             {
