@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class EnemySummon : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private float time = 0;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        Summon();
+    }
+
+    void Summon()
+    {
+        time += Time.deltaTime;
+        if(time >= 180)
+        {
+            Debug.Log("Perdiste");
+            gameObject.SetActive(false);
+        }
+        Debug.Log(time);
     }
 }
