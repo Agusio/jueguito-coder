@@ -1,8 +1,8 @@
 # jueguito-coder
 Instrucciones:
-W A S D - Movimiento.
-F - Linterna.
-Click izquierdo del mouse - Interactuar/Agarrar.
+1. W A S D y Mouse - Movimiento.
+1. F - Linterna.
+1. Click izquierdo del mouse - Interactuar/Agarrar.
 
 El objetivo del juego es encontrar los objetos antes de que transcurra 3 minutos.
 Los objetos son:
