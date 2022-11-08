@@ -19,6 +19,5 @@ public class EnemySummon : MonoBehaviour
             Debug.Log("Perdiste");
             gameObject.SetActive(false);
         }
-        Debug.Log(time);
     }
 }
