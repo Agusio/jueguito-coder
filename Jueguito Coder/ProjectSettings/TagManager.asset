@@ -9,6 +9,7 @@ TagManager:
   - GoldIngotCollider
   - VideogameConsoleCollider
   - LaptopCollider
+  - Game
   layers:
   - Default
   - TransparentFX
